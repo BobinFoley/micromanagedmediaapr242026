@@ -12,6 +12,7 @@
     "lint": "astro check"
   },
   "dependencies": {
+    "@astrojs/netlify": "^7.0.8",
     "@astrojs/node": "^10.0.6",
     "@astrojs/react": "^5.0.4",
     "@google/genai": "^1.50.1",
