@@ -158,7 +158,7 @@ export default function Contact() {
                   <label className="text-sm font-medium text-gray-700 dark:text-gray-300">Tell Us About Your Project <span className="text-red-500">*</span></label>
                   <textarea placeholder="Share your goals, current challenges, and what success looks like for you..." rows={5} value={form.message} onChange={(e) => update('message', e.target.value)} className="w-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-400/40 focus:border-cyan-400 resize-none" />
                 </div>
-                <button type="submit" disabled={loading} className="w-full bg-blue-900 hover:bg-blue-800 disabled:opacity-60 text-white font-semibold rounded-xl h-12 flex items-center justify-center gap-2 transition-colors">
+                <button type="submit" disabled={loading} className="w-full bg-cyan-500 hover:bg-cyan-600 disabled:opacity-60 text-white font-semibold rounded-xl h-12 flex items-center justify-center gap-2 transition-colors">
                   {loading ? (
                     <>
                       <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />

@@ -1,8 +1,4 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Navbar from '../../components/Navbar.astro';
-import Footer from '../../components/Footer.astro';
-import ScrollToTop from '../../components/ScrollToTop.astro';
 import ServicePageLayout from '../../components/ServicePageLayout.astro';
 
 const APP_URL = 'https://micromanagedmedia.com';
@@ -76,12 +72,6 @@ const relatedServices = [
 ];
 ---
 
-<Layout
-  title="AI Receptionist for Contractors | 24/7 Call Answering Service"
-  description="Never miss a lead again. Our AI receptionist Gracie answers calls 24/7, screens spam, books appointments, and syncs directly to your CRM. Get started today."
-  canonical={`${APP_URL}/services/ai-automation`}
->
-  <Navbar />
   <ServicePageLayout
     title="This is Gracie™ — AI Receptionist"
     subtitle="24/7 AI-Powered Call Answering for Contractors"
@@ -111,6 +101,3 @@ const relatedServices = [
     metaTitle="AI Receptionist for Contractors | 24/7 Call Answering Service"
     metaDescription="Never miss a lead again. Our AI receptionist Gracie answers calls 24/7, screens spam, books appointments, and syncs directly to your CRM. Get started today."
   />
-  <Footer />
-  <ScrollToTop />
-</Layout>

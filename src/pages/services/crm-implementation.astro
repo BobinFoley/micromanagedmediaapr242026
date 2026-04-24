@@ -1,8 +1,4 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Navbar from '../../components/Navbar.astro';
-import Footer from '../../components/Footer.astro';
-import ScrollToTop from '../../components/ScrollToTop.astro';
 import ServicePageLayout from '../../components/ServicePageLayout.astro';
 
 const APP_URL = 'https://micromanagedmedia.com';
@@ -76,12 +72,6 @@ const relatedServices = [
 ];
 ---
 
-<Layout
-  title="Contractor CRM & Sales Automation Systems | Lead Management"
-  description="Stop letting leads fall through the cracks. We build custom Airtable CRM and Make.com systems for contractors to automate follow-ups and close more jobs."
-  canonical={`${APP_URL}/services/crm-implementation`}
->
-  <Navbar />
   <ServicePageLayout
     title="CRM & Marketing Automation"
     subtitle="Airtable-Based Systems for Contractors"
@@ -111,6 +101,3 @@ const relatedServices = [
     metaTitle="Contractor CRM & Sales Automation Systems | Lead Management"
     metaDescription="Stop letting leads fall through the cracks. We build custom Airtable CRM and Make.com systems for contractors to automate follow-ups and close more jobs."
   />
-  <Footer />
-  <ScrollToTop />
-</Layout>

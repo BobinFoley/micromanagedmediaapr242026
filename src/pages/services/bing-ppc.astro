@@ -1,8 +1,4 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Navbar from '../../components/Navbar.astro';
-import Footer from '../../components/Footer.astro';
-import ScrollToTop from '../../components/ScrollToTop.astro';
 import ServicePageLayout from '../../components/ServicePageLayout.astro';
 
 const APP_URL = 'https://micromanagedmedia.com';
@@ -101,12 +97,6 @@ const relatedServices = [
 ];
 ---
 
-<Layout
-  title="Bing PPC for Contractors | Microsoft Ads Management"
-  description="Reach 63 million affluent searchers Google misses. We manage Bing Ads for contractors, driving high-intent leads at 25-40% lower CPCs. Book a consultation."
-  canonical={`${APP_URL}/services/bing-ppc`}
->
-  <Navbar />
   <ServicePageLayout
     title="Bing PPC Advertising"
     subtitle="Microsoft Advertising Management"
@@ -136,6 +126,3 @@ const relatedServices = [
     metaTitle="Bing PPC for Contractors | Microsoft Ads Management"
     metaDescription="Reach 63 million affluent searchers Google misses. We manage Bing Ads for contractors, driving high-intent leads at 25-40% lower CPCs. Book a consultation."
   />
-  <Footer />
-  <ScrollToTop />
-</Layout>

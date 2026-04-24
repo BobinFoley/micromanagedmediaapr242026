@@ -1,8 +1,4 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Navbar from '../../components/Navbar.astro';
-import Footer from '../../components/Footer.astro';
-import ScrollToTop from '../../components/ScrollToTop.astro';
 import ServicePageLayout from '../../components/ServicePageLayout.astro';
 
 const APP_URL = 'https://micromanagedmedia.com';
@@ -101,12 +97,6 @@ const relatedServices = [
 ];
 ---
 
-<Layout
-  title="Google PPC for Contractors | Expert Google Ads Management"
-  description="Stop wasting ad spend. We build manually optimized Google Ads campaigns for home service businesses to get you more calls, booked jobs, and proven ROI."
-  canonical={`${APP_URL}/services/google-ppc`}
->
-  <Navbar />
   <ServicePageLayout
     title="Google PPC Advertising"
     subtitle="Paid Search Management"
@@ -136,6 +126,3 @@ const relatedServices = [
     metaTitle="Google PPC for Contractors | Expert Google Ads Management"
     metaDescription="Stop wasting ad spend. We build manually optimized Google Ads campaigns for home service businesses to get you more calls, booked jobs, and proven ROI."
   />
-  <Footer />
-  <ScrollToTop />
-</Layout>
